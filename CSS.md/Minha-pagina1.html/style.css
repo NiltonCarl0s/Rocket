@@ -1,0 +1,40 @@
+
+* {
+    box-sizing: border-box;
+} 
+body {
+    background: linear-gradient(120deg, rgb(0, 0, 39), rgb(190, 195, 207));   
+}
+.cabeçalho {
+    padding: 5px;
+    border-bottom: 2px solid cyan;  
+}
+.cabeçalho .conteiner {
+    display: flex;
+    margin-left: 1400px;
+    border-left: 2px solid cyan;
+    cursor: pointer;
+}
+.cabeçalho figure img {
+    width: 100%;
+    border-radius: 5px;
+    max-width: 25px;
+}
+.Meu_Perfil img {
+    width: 100%;
+    max-width: 550px;
+}
+h1 {
+color:rgb(91, 35, 143)
+}
+h4 {
+    color:rgb(91, 35, 143)
+}
+a {
+    color: rgb(67, 67, 145);
+}
+
+
+    
+    
+

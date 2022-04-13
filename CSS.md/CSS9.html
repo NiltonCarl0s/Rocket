@@ -1,0 +1,89 @@
+<div class="box1 box"></div>
+<div class="box2 box"></div>
+<div class="box3 box"></div>
+
+
+<!--
+<header>Topo</header>
+<main>Conteúdo</main>
+<aside>Informações</aside>
+<footer>Rodapé</footer>
+
+    CSS
+ body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 30px 1fr 40px;
+  grid-template-columns: 1fr 80px;
+  grid-template-areas:
+    "header header"
+    "main aside"
+    "footer footer"
+    
+}
+header {
+  grid-area: header;
+  background-color: green;
+}
+main {
+  grid-area: main;
+  background-color: red;
+}
+aside {
+  grid-area:aside;
+  background-color: blue;
+}
+footer {
+  grid-area: footer;
+  background-color: gray;
+}
+-->
+
+
+<body>
+    <header>
+      <div>Logo</div>
+      <div>Manu</div>
+    </header>
+    
+    <main>Conteúdo</main>
+    
+    <aside>Informações</aside>
+    
+    <footer>Rodapé</footer>
+  </body>
+CSS 
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 30px 1fr 40px;
+    grid-template-columns: 1fr 80px;
+    grid-template-areas:
+      "header header"
+      "main aside"
+      "footer footer"
+      
+  }
+  header {
+    grid-area: header;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding:0 8px;
+  }
+  main {
+    grid-area: main;
+    background-color: red;
+  }
+  aside {
+    grid-area:aside;
+    background-color: blue;
+  }
+  footer {
+    grid-area: footer;
+    background-color: gray;
+  }

@@ -1,0 +1,40 @@
+*,*::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    padding: 4rem;
+    background-color: rgb(203, 205, 206);
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;   
+}
+
+img {
+    width: 10%;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: .8rem;
+}
+
+ul li:last-child {
+    background: black;
+    color: white;
+    padding: .8rem;
+    cursor: pointer;
+}

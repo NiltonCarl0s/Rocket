@@ -1,0 +1,21 @@
+
+
+body {
+    font-size: 5rem;
+    display: flex;
+    min-height: 100vh;
+    gap: 1rem;
+}
+
+.aside {
+    background-color: brown;
+    flex: 1;
+    border: 2px solid;
+    
+}
+
+.main {
+    background-color: rgb(204, 86, 86);
+    flex: 2;
+    border: 2px solid;
+}

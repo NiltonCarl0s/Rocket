@@ -1,0 +1,12 @@
+img {
+    width: 30%;
+    height: auto;
+}
+
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .8rem;
+
+}

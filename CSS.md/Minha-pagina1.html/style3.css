@@ -1,0 +1,15 @@
+.pagina {
+    background-image: repeating-linear-gradient(gray, black);
+}
+
+h1 {
+background: linear-gradient(200deg, black, gray);
+height: 250px;
+color: white;
+border: 10px 
+
+}
+img {
+    height: 100%;
+    width: 600px;
+}

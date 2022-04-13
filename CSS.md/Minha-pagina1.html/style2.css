@@ -1,0 +1,6 @@
+h1 {
+background: repeating-linear-gradient(black, darkolivegreen, black);
+background: linear-gradient(120deg, black, rgb(8, 1, 68));
+height: 900px;
+color: rgb(60, 61, 61);
+}
